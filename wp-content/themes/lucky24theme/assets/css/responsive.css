@@ -1,0 +1,1006 @@
+
+
+
+
+
+
+@media only screen and (max-width: 1024px){
+    .director-text p {
+        line-height: 29px;
+        font-size: 11px;
+    }
+    .first-text p {
+        padding-top: 33px;
+        font-size: 13px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    
+    .banner-text h2 {
+        padding-top: 125px;
+        font-size: 6em;
+        color: #fff;
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:none;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 36px;
+    }
+    .banner-image-text p {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 12px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .unforgettable-text p {
+        padding: 30px 0;
+        font-size: 13px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 21px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 1px;
+    }
+    .director-text p {
+        line-height: 29px;
+        font-size: 22px;
+    }
+    .first-text p {
+        padding-top: 33px;
+        font-size: 22px;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 1em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+        margin-right: 2em;
+        margin-top: 1em;
+    }
+    
+}
+
+@media only screen and (max-width: 599px){
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 36px;
+    }
+    .banner-image-text p {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 15px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .unforgettable-text p {
+        padding: 30px 0;
+        font-size: 16px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 21px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 100%;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+@media only screen and (max-width: 480px){
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 36px;
+    }
+    .banner-image-text p {
+        font-size: 12px;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 15px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .unforgettable-text p {
+        padding: 30px 0;
+        font-size: 16px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 21px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 100%;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 430px){
+    .banner-text h2 {
+        padding-top: 125px;
+        font-size: 4em;
+        color: #fff;
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+    }
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 26px;
+    }
+    .banner-image-text p {
+        font-size: 11px;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 12px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .footer-part p {
+        font-size: 15px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 100%;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 414px){
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 36px;
+    }
+    .banner-image-text p {
+        font-size: 10px;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 15px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .unforgettable-text p {
+        padding: 30px 0;
+        font-size: 16px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 21px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .footer-part p {
+        font-size: 18px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 400px;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 390px){
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 26px;
+    }
+    .banner-image-text p {
+        font-size: 1em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 12px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 400px;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+@media only screen and (max-width: 375px){
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 26px;
+    }
+    .banner-image-text p {
+        font-size: 1em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 12px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .allocations-banner h1 {
+        font-family: freight-display-pro, serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        color: #fff;
+        padding: 20px 0;
+        font-size: 4rem;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 400px;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 26px;
+    }
+    .banner-image-text p {
+        font-size: 9px;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .luxary-text p {
+        padding-top: 14px;
+        font-size: 12px;
+        font-family: lato,Arial,sans-serif;
+        font-weight: 400;
+        letter-spacing: .5px;
+        line-height: 22px;
+        padding-bottom: 10px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .bottom-menu-part nav{
+        text-align: center;
+    }
+    .allocations-banner h1 {
+        font-family: freight-display-pro, serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        color: #fff;
+        padding: 20px 0;
+        font-size: 4rem;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 400px;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+@media only screen and (max-width: 320px){
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 26px;
+    }
+    .banner-image-text p {
+        font-size: .7em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+
+ 
+    .health-text h1 {
+        color: #ffff;
+        font-family: freight-display-pro, serif;
+        font-size: 4rem;
+    }
+    .producer-text h1 {
+        color: #fff;
+        font-family: freight-display-pro, serif;
+        font-size: 4rem;
+    }
+    .allocations-banner h1 {
+        font-family: freight-display-pro, serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        color: #fff;
+        padding: 20px 0;
+        font-size: 4rem;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 400px;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 280px){
+    .heder-menu-part {
+        top: 0;
+        right: 0;
+        width: 400px;
+        border-left: 1px solid rgba(0,0,0,.2);
+        transform: translateX(100%);
+        background-color: #000000b3;
+    }
+    .header-nav-menu {
+        display: inline-block;
+        flex-direction: column;
+        padding-left: 0em;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    .home-address {
+      
+        display: none;
+    }
+    .touch_btn .get span {
+        font-size: .6em;
+        letter-spacing: 4.4px;
+        padding: 0.2em;
+        z-index: 2;
+        color: #fff;
+        display: block;
+        font-weight: 700;
+        line-height: 15px;
+        position: relative;
+        text-transform: uppercase;
+        top: 1px;
+    }
+    .banner-image-text p {
+        font-size: .8em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+         margin-left: 0; 
+         text-align: center; 
+    }
+    .banner-pics {
+        left: 0;
+        top: -27px;
+        object-fit: cover;
+         width:100%;
+    }
+    .logo {
+         margin-right: 0;
+    }
+    .banner-image-text h1 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        font-size: 20px;
+    }
+    .banner-image-text p {
+        font-size: .4em;
+        font-weight: 400;
+        margin-top: 3em;
+        margin-bottom: 3em;
+        margin-left: 0;
+        text-align: center;
+    }
+    .unforgettable h2 {
+        font-family: freight-display-pro,serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        padding-top: 26px;
+    }
+    .image-right{
+        margin-left: -22px;
+    }
+    .home-footer {
+        background-color: #0b0d1b;
+        padding: 2em 0;
+        color: #fff;
+        text-align: center;
+    }
+    .director-text {
+        margin-top: 28px;
+        margin-left: 3px;
+    }
+ 
+    .health-text h1 {
+        color: #ffff;
+        font-family: freight-display-pro, serif;
+        font-size: 4rem;
+    }
+    .producer-text h1 {
+        color: #fff;
+        font-family: freight-display-pro, serif;
+        font-size: 4rem;
+    }
+    .allocations-banner h1 {
+        font-family: freight-display-pro, serif;
+        font-weight: 500;
+        letter-spacing: .5px;
+        color: #fff;
+        padding: 20px 0;
+        font-size: 2rem;
+    }
+    .footer-part p {
+        font-size: 12px;
+    }
+    .footer-menu ul {
+        padding-left: 0em;
+        padding-top: 26px;
+    }
+}
