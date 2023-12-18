@@ -1,6 +1,9 @@
 <footer class="home-footer">
 <?php $pageid = get_id_by_slug('site-general-settings'); 
 
+
+
+
  //$socialrows = CFS()->get('social_loop',$pageid );
 ?>
     <div class="container">
