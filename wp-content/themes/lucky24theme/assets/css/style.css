@@ -64,6 +64,8 @@ ul {
 .home-address{
     margin-right: 22em;
     margin-top: 1em;
+    width: 100%;
+    text-align: right;
 }
 .home-address li{
     color: #fff;
@@ -1859,4 +1861,19 @@ z-index: 1;
     font-size: 16px;
     padding-top: 7px;
     color: #fff;
+}
+
+
+.offcanvas-body {
+    position: relative;
+}
+.offcanvas-body .crossdiv {
+    position: absolute;
+    right: 25px;
+    top: 0;
+    cursor: pointer;
+}
+.offcanvas-body .crossdiv i{
+    color: #fff;
+    font-size: 34px;
 }

@@ -74,6 +74,8 @@
 
                             
                         </div>
+
+                        <div class="crossdiv"><i class="fa-regular fa-circle-xmark"></i></div>
                     </div>
                 </div>
             </div>
