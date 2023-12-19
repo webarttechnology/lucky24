@@ -13,49 +13,47 @@ get_header();
 
 
     ?>
-    <section class="page-header" >
 
-       <div class="container">
-
-        <div class="row justify-content-center">
-
-            <div class="col-md-8">
-
-                <div class="content text-center">
-
-                    <h1 class="mb-3 text-white text-capitalize">404</h1>
-
-                    <ul class="list-inline">
-
-                        <li class="list-inline-item"><span class="text-theme">404</span></li>
-
-                    </ul>
-
+    <section class="contact-banner-page" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-text text-center">
+                    <h1 data-aos="fade-down" data-aos-duration="1000">404</h1>
                 </div>
-
             </div>
-
         </div>
+    </div>
+    <div
+        class="uk-background-page-header-mask-bottom uk-position-absolute uk-position-z-index uk-height-viewport uk-width-1-1">
+    </div>
+</section>
+
+    <section class="contact-form-page py-5">
+ <div class="container">
+ 
+    
+   <div class="row">
+              <div class="col-md-12">
+                    <header class="page-header alignwide">
+        <h1 class="page-title"><?php esc_html_e( 'Nothing here', '' ); ?></h1>
+    </header><!-- .page-header -->
+
+    <div class="error-404 not-found default-max-width">
+        <div class="page-content">
+            <p><?php esc_html_e( 'It looks like nothing was found at this location' ); ?></p>
+        
+        </div><!-- .page-content -->
+    </div><!-- .error-404 -->
+             </div>
+            
+     </div>
+
+    
 
     </div>
 
-</section>
-<section class="aboutpagesec py-5">
-
-    <div class="container">
-	<header class="page-header alignwide">
-		<h1 class="page-title"><?php esc_html_e( 'Nothing here', 'twentytwentyone' ); ?></h1>
-	</header><!-- .page-header -->
-
-	<div class="error-404 not-found default-max-width">
-		<div class="page-content">
-			<p><?php esc_html_e( 'It looks like nothing was found at this location' ); ?></p>
-		
-		</div><!-- .page-content -->
-	</div><!-- .error-404 -->
-	
-	</div>
-	</section>
+    </section>
 
 <?php
 get_footer();
