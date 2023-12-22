@@ -10,107 +10,67 @@
  */
 
 get_header();
-
+while(have_posts()):the_post();
+    if(get_field('inner_banner')){
 ?>
 
 
-<?php if(get_field('inner_banner')!=''){ ?>
-
-<section class="page-header" style="background-image: <?php get_field('inner_banner'); ?>;">
+ <!--Page Title-->
+<section class="contact-banner-page" style="background-image: url(<?php echo get_field('inner_banner'); ?>);">
 <?php }
 else{
     ?>
-    <section class="page-header" >
+    <section class="contact-banner-page" >
 <?php }
 
- while(have_posts()):the_post(); ?>
 
-
+ ?>
     <div class="container">
-
-        <div class="row justify-content-center">
-
-            <div class="col-md-8">
-
-                <div class="content text-center">
-
-                    <h1 class="mb-3 text-white text-capitalize"><?php the_title(); ?></h1>
-
-                    <ul class="list-inline">
-
-                        <li class="list-inline-item"><a href="<?php bloginfo('url'); ?>"> <i class="fa-solid fa-house"></i> Home</a></li>
-
-                        <li class="list-inline-item">/</li>
-
-                        <li class="list-inline-item"><span class="text-theme"><?php the_title(); ?></span></li>
-
-                    </ul>
-
+        <div class="row">
+            <div class="col-md-12">
+                <div class="contact-text text-center">
+                    <h1 data-aos="fade-down" data-aos-duration="1000"><?php the_title(); ?></h1>
                 </div>
-
             </div>
-
         </div>
+    </div>
+    <div
+        class="uk-background-page-header-mask-bottom uk-position-absolute uk-position-z-index uk-height-viewport uk-width-1-1">
+    </div>
+</section>
+   
+    <section class="contact-form-page py-5 blog_singleimg">
+ <div class="container">
+   <?php if( get_the_post_thumbnail_url(get_the_ID()) !='')
+                    { ?>
+        <div class="row align-items-center">
+              <div class="col-md-6">
+                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>">
+                
+             </div>
+             <div class="col-md-6">
+                <?php the_content(); ?>
+             </div>
+        </div>
+    <?php }
+    else{
+        ?>
+   <div class="row">
+              <div class="col-md-12">
+                 <?php the_content(); ?>
+             </div>
+            
+     </div>
+
+    <?php 
+       }
+
+     ?>
 
     </div>
 
-</section>
-
-
-<section class="aboutpagesec py-5">
-
-    <div class="container">
-
-        <div class="row align-items-center">
-         <?php if(get_the_post_thumbnail_url(get_the_ID())!='')
-         { ?>
-
-          <div class="col-md-6">
-
-             <div class="aboutpgimg mb-5">
-
-                <img src="<?php echo get_the_post_thumbnail_url(get_the_ID()); ?>" alt="">
-
-             </div>
-
-          </div>
-
-          <div class="col-md-6">
-
-            <div class="aboutpgcnt mb-5">
-
-            <?php the_content(); ?>
-
-          </div>
-
-          </div>
-       <?php } 
-       else{
-         ?>
-          <div class="col-md-12">
-
-            <div class="aboutpgcnt mb-5">
-
-            <?php the_content(); ?>
-
-          </div>
-
-          </div>
-
-      <?php  }
-
-
-
-       ?>
-
-      </div>
-
-  </div>
-
-  </section>  
-
-
-  <?php endwhile; 
-  
+    </section>
+<?php 
+  endwhile;
 
 get_footer();

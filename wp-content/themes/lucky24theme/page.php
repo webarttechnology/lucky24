@@ -11,11 +11,20 @@
 
 get_header();
 while(have_posts()):the_post();
+    if(get_field('inner_banner')){
 ?>
 
 
  <!--Page Title-->
 <section class="contact-banner-page" style="background-image: url(<?php echo get_field('inner_banner'); ?>);">
+<?php }
+else{
+    ?>
+    <section class="contact-banner-page" >
+<?php }
+
+
+ ?>
     <div class="container">
         <div class="row">
             <div class="col-md-12">

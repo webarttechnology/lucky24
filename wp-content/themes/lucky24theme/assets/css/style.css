@@ -106,7 +106,7 @@ padding-top: 94px;
 }
 
 
-
+/* 
 .home-banner {
     background-image: url(../image/banner/RB50-130-scaled-e1648723186346.webp);
     background-position: center;
@@ -115,7 +115,7 @@ padding-top: 94px;
     padding: 62px 0;
     position: relative;
 }
-
+ */
 .home-banner::before {
     position: absolute;
     content: "";
@@ -729,14 +729,14 @@ padding-top: 94px;
 }
 
 /* start */
-.starts {
+/* .starts {
     background-image: url(../image/banner/starts-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding: 180px 0;
     text-align: center;
     position: relative;
-}
+} */
 
 .starts h2 {
     color: #fff;
@@ -870,14 +870,14 @@ padding-top: 94px;
     margin-bottom: 20px;
 }
 
-.img {
+/* .img {
     height: 100%;
     background-size: cover;
     background-position: center;
     border-radius: 4px;
     transition: all 0.7s ease;
     background-image: url(../image/inspair/inspire-img1.jpg);
-}
+} */
 
 .img::after {
     position: absolute;
@@ -927,20 +927,20 @@ padding-top: 94px;
     transform: scale(1);
 }
 
-.img2 {
+/* .img2 {
     background-image: url(../image/inspair/inspire-img2.jpg);
     background-repeat: no-repeat;
-}
+} */
 
-.img3 {
+/* .img3 {
     background-image: url(../image/inspair/inspire-img3.jpg);
     background-repeat: no-repeat;
-}
+} */
 
-.img4 {
+/* .img4 {
     background-image: url(../image/inspair/inspire-img4\ \(2\).jpg);
     background-repeat: no-repeat;
-}
+} */
 
 .inspire h2 {
     font-family: freight-display-pro, serif;
@@ -1876,4 +1876,57 @@ z-index: 1;
 .offcanvas-body .crossdiv i{
     color: #fff;
     font-size: 34px;
+}
+
+
+.blog_singleimg img {
+	width: 100%;
+}
+
+.menu-main-menu-container li a.nav-link {color: #fff !important; transition: all .3s;
+    font-size: 24px;
+    font-family: freight-display-pro, serif;
+    font-weight: 600;}
+.offcanvas-body .navbar-nav .menu-item-222 .nav-link:hover {
+    opacity: .8;
+    color: #fff;
+}
+.offcanvas-body .menu-main-menu-container {
+width: 100%;
+}
+
+.banner-image .banner-image-text p {
+    text-align: left;
+    margin: 0 auto;
+    padding: 0 100px 25px 100px;
+    text-align: center;
+}
+.woocommerce ul.products li.product a img {
+    border: #ddd 1px solid;
+    padding: 10px;
+}
+h2.woocommerce-loop-product__title {
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    font-size: 18px !important;
+}
+.woocommerce:where(body:not(.woocommerce-uses-block-theme)) ul.products li.product .price {
+    color: #b3af54;
+    text-align: center;
+    font-weight: bold;
+}
+.type-product {text-align: center;}
+.add_to_cart_button {
+    background: #333 !important;
+    color: #fff !important;
+    border-radius: 6px !important;
+    padding: 15px 20px !important;
+}
+
+
+.offcanvas-end{
+
+visibility:hidden;
+
 }

@@ -100,12 +100,25 @@
     crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/60b352a9e9.js" crossorigin="anonymous"></script>
 
-    <script>
-      jQuery('document').ready(function(){
-        jQuery(".crossdiv").click(function(){
-            if(jQuery(".heder-menu-part").hasClass('show'))
+    <!-- <script>
+      jQuery(document).ready(function($){
+        $(".crossdiv").click(function(){
+            if($(".heder-menu-part").hasClass('show'))
             {
-                jQuery(".heder-menu-part").removeClass('show')
+                $(".heder-menu-part").removeClass('show');
+                $('.offcanvas-end').css('visibility','hidden');
+                $(".offcanvas-backdrop").remove();
+                $(".offcanvas-backdrop").attr('aria-hidden','false');
+                // if( $(".offcanvas-backdrop").hasClass('show'))
+                // {
+                //         $(".offcanvas-backdrop").remove();
+                // }else{
+                //     $(".offcanvas-backdrop").();
+                // }
+            }else{
+                 $('.offcanvas-end').css('visibility','visible');
+                 // $(".offcanvas-backdrop").append();
+                  $(".offcanvas-backdrop").attr('aria-hidden','true');
             }
 
 
@@ -117,6 +130,31 @@
 
 
     </script>
+ -->
+
+ <script>
+    jQuery(document).ready(function($) {
+        $(".crossdiv").click(function() {
+            var $hederMenuPart = $(".heder-menu-part");
+            var $offcanvasEnd = $('.offcanvas-end');
+            var $offcanvasBackdrop = $(".offcanvas-backdrop");
+
+            if ($hederMenuPart.hasClass('show')) {
+                // If "heder-menu-part" has class "show"
+                $hederMenuPart.removeClass('show');
+                $offcanvasEnd.css('visibility', 'hidden');
+                $offcanvasBackdrop.remove();
+                $offcanvasBackdrop.attr('aria-hidden', 'false');
+            } else {
+                // If "heder-menu-part" does not have class "show"
+                $offcanvasEnd.css('visibility', 'visible');
+                // Add content to "offcanvas-backdrop" if needed
+                // $offcanvasBackdrop.append('<div>Your Content Here</div>');
+                $offcanvasBackdrop.attr('aria-hidden', 'true');
+            }
+        });
+    });
+</script>
 
 
 

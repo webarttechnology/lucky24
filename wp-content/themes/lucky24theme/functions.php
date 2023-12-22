@@ -93,6 +93,7 @@ function myfirsttheme_setup() {
      */
 
     add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'image', 'video' ) );
+    add_theme_support('woocommerce');
 
 }
 
@@ -842,6 +843,11 @@ function wpse156165_menu_add_class( $atts, $item, $args ) {
    
     return $atts;
 }
+
+
+
+
+
 
 
 

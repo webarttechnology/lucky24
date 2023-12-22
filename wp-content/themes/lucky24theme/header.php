@@ -69,7 +69,7 @@
                             <ul>
                                 
                                     <li><?php echo get_field('phone',$pageid); ?></li>
-                                    <li><?php echo get_field('email',$pageid); ?></li>
+                                    <li><?php echo get_field('site_email',$pageid); ?></li>
                             </ul>
 
                             
