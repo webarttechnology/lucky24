@@ -36,7 +36,8 @@ class Wt_Import_Export_For_Woo_Basic_Import
 	public $temp_import_file='';
 	private $to_process='';
         public $allowed_import_file_type_mime=array();
-        public $step_need_validation_filter=array();        
+        public $step_need_validation_filter=array();     
+		public $allowed_mime_types = array();
 
 	public function __construct()
 	{
@@ -51,6 +52,10 @@ class Wt_Import_Export_For_Woo_Basic_Import
 		);
 		$this->allowed_import_file_type_mime=array(
 			'csv'=>'text/csv',
+		);
+		$this->allowed_mime_types = array(
+			'text/csv',
+			'application/vnd.ms-excel'
 		);
 
 		/* default step list */

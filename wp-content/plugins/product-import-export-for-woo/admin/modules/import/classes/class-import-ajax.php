@@ -122,7 +122,10 @@ class Wt_Import_Export_For_Woo_Basic_Import_Ajax
 
 			$is_file_type_allowed=false;
 			$upload_file_details = wp_check_filetype($_FILES['wt_iew_import_file']['name']);
-			if(in_array($_FILES['wt_iew_import_file']['type'], $this->import_obj->allowed_import_file_type_mime) && 'text/csv' === $upload_file_details['type'] && 'csv' === $upload_file_details['ext'] ) /* Not allowed file type. [Bug fix for Windows OS]Then verify it again with file extension */
+
+			$allowed_mime_types = apply_filters('wt_iew_custom_import_allowed_mime_types', $this->import_obj->allowed_mime_types);
+			
+			if(in_array($_FILES['wt_iew_import_file']['type'], $allowed_mime_types) && 'text/csv' === $upload_file_details['type'] && 'csv' === $upload_file_details['ext'] ) /* Not allowed file type. [Bug fix for Windows OS]Then verify it again with file extension */
 			{
 				$is_file_type_allowed=true;
 			}

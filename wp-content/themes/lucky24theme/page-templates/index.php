@@ -14,7 +14,7 @@ get_header();
 
 <div class="container">
   <div class="row">
-    <div class="col-md-12">
+    <div class="col-md-12 home-additional-cls">
       <div class="banner-text text-center" data-aos="fade-down" data-aos-duration="1000">
         <h2><?php echo get_field('first_banner_heading'); ?></h2>
       </div>
@@ -89,11 +89,11 @@ get_header();
             <div class="luxary-text">
               <h2> <?php echo $aboutsec['about_sec_heading']; ?></h2>
               <?php echo $aboutsec['about_sec_content']; ?>
-              <div class="main_div touch_btns">
+             <!-- <div class="main_div touch_btns">
                 <a href="<?php echo $aboutsec['about_sec_button_link']; ?>" class="get">
                   <span><?php echo $aboutsec['about_sec_button_text']; ?></span>
                 </a>
-              </div>
+              </div>-->
             </div>
           </div>
         </div>
@@ -108,10 +108,131 @@ get_header();
           <img src="<?php echo $aboutsec['about_sec_bottom_image_2']; ?>" alt="" style="width: 100%;">
         </div>
 
-      </div>
+      </div>	
     </div>
   </section>
   <?php } ?>
+
+
+<!--  Our Event Goal  -->
+
+ <section class="event-goal">
+    <?php  $eventgoalsec = get_field('event_goal_section_group');
+        if($eventgoalsec){
+     ?>
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-6">
+          <div class="eventgoal-text" style="color: #fff;">
+			  <h2> <?php echo $eventgoalsec['event_goal_sec_heading']; ?> </h2>
+			   <?php echo $eventgoalsec['event_goal_sec_content']; ?>
+           <!-- <div class="button-box">
+              <div class="main_div touch_btn">
+                <a href="<?php echo $eventgoalsec['event_goal_sec_button_link']; ?>" class="get">
+                  <span><?php echo $eventgoalsec['event_goal_sec_button_text']; ?></span>
+                </a>
+              </div>
+            </div> -->
+          </div>
+        </div>
+		  
+		   <div class="col-md-6">
+          <img src="<?php echo $eventgoalsec['event_goal_sec_left_side_image']; ?>" alt="" style="width: 100%; height: 100%;">
+        </div>
+		  
+      </div>
+    </div>
+	 <?php } ?>
+  </section>
+
+
+
+<!-- Projected Talent  -->
+
+  <?php
+ $projectsec = get_field('Projected_section_group');
+
+ if($projectsec){
+ 
+ ?>
+  <section class="projected-talent">
+    <div class="container">
+      <div class="row">
+		  
+		  <div class="col-md-6 Projected-parent-right-img">
+          <img src="<?php echo $projectsec['Projected_sec_right_side_image']; ?>" alt="" style="width: 100%; height: 100%;">
+        </div>
+		  
+               <div class="col-md-6 Projected-parent">
+          <div class="parent-luxary">
+            <div class="luxary-text">
+              <h2> <?php echo $projectsec['Projected_sec_heading']; ?></h2>
+              <?php echo $projectsec['Projected_sec_content']; ?>
+             <!-- <div class="main_div touch_btns">
+                <a href="<?php echo $projectsec['Projected_sec_button_link']; ?>" class="get">
+                  <span><?php echo $projectsec['Projected_sec_button_text']; ?></span>
+                </a>
+              </div> -->
+            </div>
+          </div>
+        </div>
+		  
+      </div>
+      <div class="row" style="padding: 40px;">
+        <div class=" col-md-3 Projected-parent">
+          <div class="luxery-image">
+            <img src="<?php echo $projectsec['Projected_sec_bottom_image_1']; ?>" alt="" style="width: 100%;height: 100%;">
+          </div>
+        </div>
+        <div class="col-md-3 Projected-parent">
+          <img src="<?php echo $projectsec['Projected_sec_bottom_image_2']; ?>" alt="" style="width: 100%;">
+        </div>
+		   <div class=" col-md-3 Projected-parent">
+          <div class="luxery-image">
+            <img src="<?php echo $projectsec['Projected_sec_bottom_image_3']; ?>" alt="" style="width: 100%;height: 100%;">
+          </div>
+        </div>
+        <div class="col-md-3 Projected-parent">
+          <img src="<?php echo $projectsec['Projected_sec_bottom_image_4']; ?>" alt="" style="width: 100%;">
+        </div>
+
+      </div>	
+    </div>
+  </section>
+  <?php } ?>
+
+
+
+<!--  donation  -->
+
+ <section class="donation">
+    <?php  $donationsec = get_field('donation_section_group');
+        if($donationsec){
+     ?>
+    <div class="container">
+      <div class="row">
+       
+        <div class="col-md-12">
+          <div class="eventgoal-text" style="color: #fff;">
+			  <h2> <?php echo $donationsec['donation_sec_heading']; ?> </h2>
+			   <?php echo $donationsec['donation_sec_content']; ?>
+            <div class="button-box">
+              <div class="main_div touch_btn">
+                <a href="<?php echo $donationsec['donation_sec_button_link']; ?>" class="get">
+                  <span><?php echo $donationsec['donation_sec_button_text']; ?></span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+		  
+      </div>
+    </div>
+	 <?php } ?>
+  </section>
+
+
 
   <!-- unforgettable -->
   <section class="unforgettable ">
@@ -171,11 +292,11 @@ get_header();
           </h2>
           <p><?php echo $dreamcar['wedding_car_content']; ?></p>
           <div class="london-button-box">
-            <div class="main_div touch_btns">
+            <!--<div class="main_div touch_btns">
               <a href="<?php echo $dreamcar['wedding_car_button_link']; ?>" class="get">
                 <span><?php echo $dreamcar['wedding_car_button_text']; ?></span>
               </a>
-            </div>
+            </div> -->
             <img src="<?php echo $dreamcar['wedding_car_left_image']; ?>" alt=""
               style="padding-top: 80px; width: 100%; height: 100%;">
           </div>
@@ -206,11 +327,11 @@ get_header();
     <div class="container">
       <div class="overlay2"></div>
       <h2><?php echo $startsec['starts_section_title']; ?></h2>
-      <div class="main_div touch_btn">
+      <!--<div class="main_div touch_btn">
         <a href="<?php echo $startsec['starts_section_button_link']; ?>" class="get">
           <span><?php echo $startsec['starts_section_button_text']; ?></span>
         </a>
-      </div>
+      </div> -->
     </div>
   </section>
 <?php } ?>
@@ -264,11 +385,11 @@ $Galleryloop = CFS()->get('wedding_gallery_loop');
       </div>
       <div class="row" style="justify-content: center;">
         <div class="col-md-2">
-          <div class="main_div touch_btns">
+          <!--<div class="main_div touch_btns">
             <a href="<?php echo CFS()->get('find_out_more_button_link'); ?>" class="get">
               <span><?php echo CFS()->get('find_out_more_button'); ?></span>
             </a>
-          </div>
+          </div>-->
 
         </div>
       </div>

@@ -22,12 +22,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header( 'shop' ); 
  if(get_field('inner_banner')!=''){
 ?>
-<section class="contact-banner-page" style="background-image: url(<?php echo get_field('inner_banner'); ?>);">
+<section class="contact-banner-page" style="background-image: url(<?php echo get_field('product_banner',6103); ?>);">
 <?php }
 else
 {
 	?>
-<section class="contact-banner-page" >
+<section class="contact-banner-page" style="background-image: url(<?php echo get_field('product_banner',6103); ?>);" >
 <?php 	
 
 }

@@ -21,6 +21,14 @@ div.error {
 	text-align: center;
 }
 
+.go-live-header-wrap h1 {
+	display: block;
+	font-size: 26px;
+	font-weight: 600;
+	line-height: 18px;
+	margin: 18px 0;
+}
+
 .go-live-header-wrap h1::before {
 	color: #02657a;
 	font-size: 40px;
@@ -36,15 +44,22 @@ div.error {
 }
 
 .go-live-header-message {
+	color: #3c434a;
 	font-weight: 600;
 	line-height: 20px;
 	margin: 0 10px 20px;
+	padding: 0 12px;
 }
 
 .go-live-checkbox-form {
 	display: block;
+	font-size: 13px;
 	margin: 0 auto;
 	max-width: 800px;
+}
+
+.go-live-checkbox-form * {
+	box-sizing: content-box;
 }
 
 .go-live-checkbox-form h3 {
@@ -73,13 +88,18 @@ div.error {
 }
 
 .go-live-checkbox-form th {
-	padding-right: 0;
+	padding-right: 0 !important;
 	width: 90px;
 }
 
-
 @media only screen and (max-width: 960px) {
 	.go-live-checkbox-form {
-		max-width: calc( 100% - 30px );
+		max-width: calc(100% - 30px);
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.go-live-header-wrap h1::before {
+		margin-left: -10px !important;
 	}
 }

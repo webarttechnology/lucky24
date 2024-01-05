@@ -4,7 +4,7 @@
  * Plugin URI: http://wordpress.org/plugins/crisp/
  * Description: Crisp is a Livechat plugin
  * Author: Crisp
- * Version: 0.43
+ * Version: 0.44
  * Author URI: https://crisp.chat
  * Text Domain: crisp
 */
@@ -100,7 +100,7 @@ function crisp_plugin_settings_page() {
   add_action("admin_enqueue_scripts", "crisp_admin_enqueue");
 
   if (current_user_can("administrator")) {
-    if( wp_verify_nonce($_GET['_wpnonce'])) {
+    if(isset($_GET['_wpnonce']) && wp_verify_nonce($_GET['_wpnonce'])) {
       if (isset($_GET["crisp_website_id"]) && !empty($_GET["crisp_website_id"])) {
         update_option("website_id", sanitize_text_field($_GET["crisp_website_id"]));
 

@@ -5,7 +5,7 @@ Tags: product export, product import, CSV import export, woocommerce, CSV, produ
 Requires at least: 3.0.1
 Tested up to: 6.4.2
 Requires PHP: 5.6
-Stable tag: 2.3.8
+Stable tag: 2.3.9
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -13,7 +13,7 @@ Easily import/export WooCommerce products (simple, grouped, external/affiliate) 
 
 == Description ==
 
-Export and import all your WooCommerce products in CSV format. The free plugin, Product Import Export for WooCommerce, exports and imports WooCommerce simple, grouped, and external/affiliate products in a super simple way!
+Export and import your WooCommerce products (simple, grouped, external/affiliate) in a super simple way using CSV files.
  
 Inventory updates, syncing products, data filtration, and automatic column mapping are some of the main peculiarities of this product importer plugin.
 
@@ -31,7 +31,7 @@ The free version of the Product Import Export for WooCommerce plugin imports and
 * grouped
 * external/affiliate products
 
-With this plugin, you can export and import WooCommerce products to and from a CSV, and you can do all the basic import-export operations in this 100% free WooCommerce import-export plugin.
+With this plugin, you can export and import WooCommerce products to and from a CSV, and you can do basic import-export operations in this 100% free WooCommerce import-export plugin.
 
 
 ##MAJOR FEATURES##
@@ -76,7 +76,7 @@ Following are some of the use-cases supported by the Product Import Export plugi
 
 ####Migrate products (simple/external) between two WooCommerce sites####
 
-Import and export all your WooCommerce store products from one store to another in just a few steps. Data filtration, automatic column mapping, and other advanced options during the import and export operations.
+Import and export your WooCommerce store products from one store to another in just a few steps. Data filtration, automatic column mapping, and other advanced options during the import and export operations.
  
 ####Update stock and price of existing products####
 
@@ -233,6 +233,8 @@ Yes, you can import grouped, affiliate/external products in addition to simple p
 
 == CHANGELOG ==
 
+= 2.3.9 2023-12-28 =
+* [Fix] - Invalid Filetype CSV in Windows OS/Firefox.
 = 2.3.8 2023-12-19 =
 * [Compatibility] - Tested OK with WooCommerce 8.4
 * [Compatibility] - Tested OK with WordPress 6.4.2
@@ -660,8 +662,6 @@ Yes, you can import grouped, affiliate/external products in addition to simple p
 
 == Upgrade Notice ==
 
-= 2.3.8 =
-* [Compatibility] - Tested OK with WooCommerce 8.4
-* [Compatibility] - Tested OK with WordPress 6.4.2
-* [Fix] - File type validation on the ‘upload_import_file’ function.
+= 2.3.9 =
+* [Fix] - Invalid Filetype CSV in Windows OS/Firefox.
 
